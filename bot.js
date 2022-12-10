@@ -3,7 +3,7 @@ const client = new Discord.Client(); // Creamos una instancia del cliente de Dis
 
 const API_KEY = 'T6bd301b8b5d82921a331745ebfd9c94c'; // Tu API key de OpenWeatherMap
 const API_URL = `https://api.openweathermap.org/data/2.5/weather?appid=${API_KEY}&units=metric&q=`;
-const token ='3bcdb67b860ff7fe8d720734224f570e78690d904ef9ef96a91650470abcf73b';
+const token ='MTA1MDk2MTU4NDY4MTM5MDA4MA.G5F2Gf.mq2cFSOI59C7XBmV9s_K2k_-fu9T1NFBZrzF1A';
 client.login(token); // Reemplazamos 'TU_TOKEN_AQUÍ' por nuestro token de autenticación
 
 client.on('message', async (message) => {
